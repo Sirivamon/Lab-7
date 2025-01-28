@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.1 on win32)" generated="2025-01-28T22:56:25.874542" rpa="false" schemaversion="5">
+<suite id="s1" name="UAT-Lab7-001 &amp; UAT-Lab7-002">
+<suite id="s1-s1" name="UAT-Lab7-001" source="C:\Users\User\Desktop\Lab#7\UAT-Lab7-001.robot">
+<test id="s1-s1-t1" name="Go To Form Page" line="14">
+<kw name="Open Browser To Form Page">
+<msg time="2025-01-28T22:56:25.951450" level="FAIL">No keyword with name 'Open Browser To Form Page' found.</msg>
+<status status="FAIL" start="2025-01-28T22:56:25.951389" elapsed="0.000138">No keyword with name 'Open Browser To Form Page' found.</status>
+</kw>
+<status status="FAIL" start="2025-01-28T22:56:25.949451" elapsed="0.002479">No keyword with name 'Open Browser To Form Page' found.</status>
+</test>
+<test id="s1-s1-t2" name="Complete Form" line="17">
+<kw name="Open Browser To Form Page">
+<msg time="2025-01-28T22:56:25.957437" level="FAIL">No keyword with name 'Open Browser To Form Page' found.</msg>
+<status status="FAIL" start="2025-01-28T22:56:25.957382" elapsed="0.000116">No keyword with name 'Open Browser To Form Page' found.</status>
+</kw>
+<kw name="Input Firstname">
+<arg>Somsong</arg>
+<status status="NOT RUN" start="2025-01-28T22:56:25.957841" elapsed="0.000032"/>
+</kw>
+<kw name="Input Lastname">
+<arg>Sandee</arg>
+<status status="NOT RUN" start="2025-01-28T22:56:25.958170" elapsed="0.000033"/>
+</kw>
+<kw name="Input Destination">
+<arg>Europe</arg>
+<status status="NOT RUN" start="2025-01-28T22:56:25.958508" elapsed="0.000032"/>
+</kw>
+<kw name="Input Contactperson">
+<arg>Sodsai Sandee</arg>
+<status status="NOT RUN" start="2025-01-28T22:56:25.958844" elapsed="0.000032"/>
+</kw>
+<kw name="Input Relationship">
+<arg>Mother</arg>
+<status status="NOT RUN" start="2025-01-28T22:56:25.959177" elapsed="0.000032"/>
+</kw>
+<kw name="Input Email">
+<arg>somsong@kkumail.com</arg>
+<status status="NOT RUN" start="2025-01-28T22:56:25.959500" elapsed="0.000034"/>
+</kw>
+<kw name="Input Phone">
+<arg>081-111-1234</arg>
+<status status="NOT RUN" start="2025-01-28T22:56:25.959831" elapsed="0.000031"/>
+</kw>
+<kw name="Submit Credentials">
+<status status="NOT RUN" start="2025-01-28T22:56:25.960157" elapsed="0.000033"/>
+</kw>
+<kw name="Complete Page Should Be Open">
+<status status="NOT RUN" start="2025-01-28T22:56:25.960758" elapsed="0.000032"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2025-01-28T22:56:25.962146" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2025-01-28T22:56:25.962100" elapsed="0.000098">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" start="2025-01-28T22:56:25.952804" elapsed="0.009628">No keyword with name 'Open Browser To Form Page' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>A test suite with a single test for valid form.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<status status="FAIL" start="2025-01-28T22:56:25.945114" elapsed="0.018502"/>
+</suite>
+<suite id="s1-s2" name="UAT-Lab7-002" source="C:\Users\User\Desktop\Lab#7\UAT-Lab7-002.robot">
+<kw name="Open Browser To Form Page" type="SETUP">
+<msg time="2025-01-28T22:56:25.968875" level="FAIL">No keyword with name 'Open Browser To Form Page' found.</msg>
+<status status="FAIL" start="2025-01-28T22:56:25.968830" elapsed="0.000097">No keyword with name 'Open Browser To Form Page' found.</status>
+</kw>
+<test id="s1-s2-t1" name="Empty Destination" line="10">
+<status status="FAIL" start="2025-01-28T22:56:25.969028" elapsed="0.000464">Parent suite setup failed:
+No keyword with name 'Open Browser To Form Page' found.</status>
+</test>
+<test id="s1-s2-t2" name="Empty Email" line="11">
+<status status="FAIL" start="2025-01-28T22:56:25.971228" elapsed="0.000444">Parent suite setup failed:
+No keyword with name 'Open Browser To Form Page' found.</status>
+</test>
+<test id="s1-s2-t3" name="Invalid Email" line="12">
+<status status="FAIL" start="2025-01-28T22:56:25.977133" elapsed="0.001430">Parent suite setup failed:
+No keyword with name 'Open Browser To Form Page' found.</status>
+</test>
+<test id="s1-s2-t4" name="Empty Phone" line="13">
+<status status="FAIL" start="2025-01-28T22:56:25.980250" elapsed="0.000428">Parent suite setup failed:
+No keyword with name 'Open Browser To Form Page' found.</status>
+</test>
+<test id="s1-s2-t5" name="Invalid Phone" line="14">
+<status status="FAIL" start="2025-01-28T22:56:25.982368" elapsed="0.000407">Parent suite setup failed:
+No keyword with name 'Open Browser To Form Page' found.</status>
+</test>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2025-01-28T22:56:25.985640" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2025-01-28T22:56:25.985586" elapsed="0.000115">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" start="2025-01-28T22:56:25.964724" elapsed="0.021071">Suite setup failed:
+No keyword with name 'Open Browser To Form Page' found.
+
+Also suite teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</suite>
+<status status="FAIL" start="2025-01-28T22:56:25.876688" elapsed="0.111326"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="7" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="7" skip="0" id="s1" name="UAT-Lab7-001 &amp; UAT-Lab7-002">UAT-Lab7-001 &amp; UAT-Lab7-002</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="UAT-Lab7-001">UAT-Lab7-001 &amp; UAT-Lab7-002.UAT-Lab7-001</stat>
+<stat pass="0" fail="5" skip="0" id="s1-s2" name="UAT-Lab7-002">UAT-Lab7-001 &amp; UAT-Lab7-002.UAT-Lab7-002</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-01-28T22:56:25.947703" level="ERROR">Error in file 'C:\Users\User\Desktop\Lab#7\UAT-Lab7-001.robot' on line 6: Resource file 'resource.robot' does not exist.</msg>
+<msg time="2025-01-28T22:56:25.967017" level="ERROR">Error in file 'C:\Users\User\Desktop\Lab#7\UAT-Lab7-002.robot' on line 6: Resource file 'resource.robot' does not exist.</msg>
+</errors>
+</robot>
